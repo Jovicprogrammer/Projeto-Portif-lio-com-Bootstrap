@@ -2,14 +2,15 @@
 
 .navbar { background-color: rgb(97, 159, 253);  }
 
-.collapse { color: wheat; }
-
+#SobreMim { background-color: rgb(219, 219, 255); }
 
 @media (max-width: 991px) {
     .img-fluid { height: 70px; }
+    #SobreMim { padding-top: 15vh; }
 }
 
 @media (min-width: 992px) {
     .navbar-brand { margin-left: 160px; }
     .img-fluid { height: 100px; }
+    #SobreMim { padding-top: 30vh; }
 }
