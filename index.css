@@ -18,9 +18,11 @@
 
 h2 { font-family: var(--destaque); font-size: 4vh;}
 p, ul { font-family: var(--texto); font-size: 3vh;}
+a { text-decoration: none; color: whitesmoke;}
+a:hover { color: rgb(188, 247, 255); transition: 0.3s;}
 
 .image { box-shadow: 5px 5px 13px 2px rgba(5, 6, 43, 0.555); }
-.image-div { background-color: rgba(36, 73, 153, 0.418); }
+.image-div { background-color: rgba(36, 73, 153, 0.521); }
 
 #Tecnologias { background-image: url("./assets/fundo-tecnologia.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-position: center; color: rgb(255, 255, 255);;}
 
@@ -33,7 +35,7 @@ p, ul { font-family: var(--texto); font-size: 3vh;}
 }
 
 @media (min-width: 992px) {
-    .navbar-brand { margin-left: 165px; }
+    .navbar-brand { margin-left: 145px; }
     .img-fluid { height: 100px; }
     #SobreMim { padding-top: 34vh; padding-bottom: 5vh;}
     #Tecnologias { padding-top: 30vh; padding-bottom: 10vh; }
