@@ -3,9 +3,11 @@
 .navbar { background-color: rgb(97, 159, 253);  }
 
 .image { box-shadow: 5px 5px 13px 2px rgba(5, 6, 43, 0.555); }
-#Tecnologias-div { background-color: rgba(181, 233, 253, 0.863); }
+.image-div { background-color: rgba(36, 73, 153, 0.418); }
 
-#Tecnologias { background-image: url("./assets/fundo-tecnologia.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-position: center; }
+#Tecnologias { background-image: url("./assets/fundo-tecnologia.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-position: center; color: rgb(255, 255, 255);;}
+
+#Contato { background-image: url("./assets/fundo-tecnologia2.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-position: center; color: rgb(255, 255, 255); }
 
 @media (max-width: 991px) {
     .img-fluid { height: 70px; }
