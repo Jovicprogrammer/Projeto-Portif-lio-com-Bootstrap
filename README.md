@@ -18,7 +18,7 @@ há uma barra de navegação que leva diretamente para cada uma.
 (👨🏻‍💻) As tecnologias utilizadas foram:
 - HTML
 - CSS
-- Bootstrap.
+- Bootstrap
 
 ![entrada do site](https://github.com/Jovicprogrammer/Projeto-Portif-lio-com-Bootstrap/blob/main/assets/readme_imagens/sobremim.png)
 ![entrada do site](https://github.com/Jovicprogrammer/Projeto-Portif-lio-com-Bootstrap/blob/main/assets/readme_imagens/tecnologias.png)
