@@ -12,18 +12,12 @@
 }
 
 @theme {
-  --color-cafecomleite: #ABA27B;
-  --color-leite:#F6E6D7;
-  --color-cafe:#2D100C;
-  --color-dourado:#FFEFAF;
-  --color-leitebranco:#FFFFFF;
-  --color-cafepreto:#000000;
-
-  --color-vapid: #0A747B;
-  --color-feisty: #ADE280;
-  --color-underdog: #284374;
-  --color-vanished: #071B3D;
-  --color-wanderlust: #EBF2F2;
+  --color-light: #F3FFB4;
+  --color-calm: #9AA2C0;
+  --color-deep-calm: #002F55;
+  --color-horror: #00122B;
+  --color-mist: #CEDCCC;
+  --color-weird-white: #E1E9D4;
 
 }
 
@@ -38,14 +32,6 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
-
-@font-face {
-  font-family: 'Oskon-Italic';
-  src: url('/fonts/ZtBrosOskon90s-Regular.otf') format('otf');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
 }
 
 
@@ -67,16 +53,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #ABA27B;
+  background: #9AA2C0;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #F6E6D7; /* cor do "thumb" (laranja Tailwind) */
+  background: #F3FFB4; /* cor do "thumb" (laranja Tailwind) */
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #FFEFAF; /* cor ao passar o mouse */
+  background: #CEDCCC; /* cor ao passar o mouse */
 }
 

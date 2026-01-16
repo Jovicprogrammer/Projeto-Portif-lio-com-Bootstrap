@@ -1,13 +1,23 @@
 import { Creato } from "../fonts";
-
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Prefacio() {
 
     return (
 
-        <div className={`bg-amber-200/20 mx-6 px-2 min-h-screen ${Creato.className}`}>
+        <div className={`flex flex-col md:flex-row items-center justify-center min-h-screen md:h-screen py-10 md:py-0 gap-8 px-4 bg-deep-calm/15 md:mx-3`}>
 
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam aperiam quasi perferendis at, neque dolore, earum id veritatis enim esse temporibus odit accusamus saepe repellendus maiores nobis aliquam doloremque mollitia.
+        <Image src='/castelo.jpg' alt='imagem de portfolio' width={600} height={600} className="w-full max-w-md md:max-w-none md:w-auto"></Image>
+
+        <div className="text-center md:text-left">
+            <p className="text-3xl md:text-5xl">venha ver meus projetos de identidade visual!!</p>
+            
+            <Link href='/Designs' className="bg-cafe inline-block p-4 rounded mt-6 md:mt-10 text-xl md:text-2xl hover:underline">Ver designs</Link>
+            
+        
+        </div>
+
 
         </div>
 

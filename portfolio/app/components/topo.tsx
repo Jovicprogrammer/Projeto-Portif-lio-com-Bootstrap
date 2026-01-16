@@ -1,6 +1,5 @@
 "use client"
 import React, { useState, useEffect } from "react"
-import Link from "next/link"
 import { GoodOld } from "../fonts"
 
 export default function Topo() {
@@ -32,7 +31,7 @@ export default function Topo() {
     return (
         <button
             onClick={scrollToTop}
-            className={`fixed bottom-3 right-9 z-50 flex items-center justify-center text-2xl bg-red-500 p-3 rounded-lg shadow-lg hover:bg-red-600 cursor-pointer transition-all duration-300 ${GoodOld.className}`}
+            className={`fixed bottom-3 right-9 z-50 flex items-center justify-center text-2xl bg-deep-calm text-shadow-lg p-3 rounded-lg shadow-horror shadow-lg hover:bg-calm cursor-pointer transition-all duration-300 ${GoodOld.className}`}
         >
             Voltar ao Topo
         </button>

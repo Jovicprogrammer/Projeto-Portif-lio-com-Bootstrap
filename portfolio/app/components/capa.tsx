@@ -1,12 +1,12 @@
-import { Creato } from "../fonts";
+import { Creato, GoodOld } from "../fonts";
 
 export default function Capa() {
 
     return (
 
-        <div className={`mx-6 px-2 min-h-screen text-center ${Creato.className}`}>
+        <div className={`mx-6 px-8 min-h-screen text-center`}>
 
-        <span className="relative top-160 text-3xl bg-amber-200/20">Boas Vindas!!</span>
+        <span className={`relative top-155 text-3xl p-3 bg-light/35 ${GoodOld.className}`}>Boas Vindas!!</span>
 
         </div>
 

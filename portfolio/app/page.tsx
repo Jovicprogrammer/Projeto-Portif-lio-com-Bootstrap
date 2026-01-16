@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import Navbar from "./components/navbar"
 import Prefacio from "./components/prefacio"
 import Footer from "./components/footer"
@@ -19,7 +18,7 @@ export default function Home() {
         <div 
                 className="fixed inset-0 -z-10"
                 style={{
-                    backgroundImage: "url('/castelo.jpg')",
+                    backgroundImage: "url('/castle.jpg')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundAttachment: "fixed"
