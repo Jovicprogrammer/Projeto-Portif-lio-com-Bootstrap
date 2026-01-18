@@ -1,12 +1,22 @@
-import { Creato } from "../fonts";
+'use client'
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
+import AOS from 'aos';
 
 export default function Prefacio() {
 
+    useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: false,
+    })
+  }, [])
+
     return (
 
-        <div className={`flex flex-col md:flex-row items-center justify-center min-h-screen md:h-screen py-10 md:py-0 gap-8 px-4 bg-deep-calm/15 md:mx-3`}>
+        <div data-aos="fade-zoom-in" className={`flex flex-col md:flex-row items-center justify-center min-h-screen md:h-screen py-10 md:py-0 gap-8 px-4 bg-deep-calm/15 md:mx-3`}>
 
         <Image src='/castelo.jpg' alt='imagem de portfolio' width={600} height={600} className="w-full max-w-md md:max-w-none md:w-auto"></Image>
 

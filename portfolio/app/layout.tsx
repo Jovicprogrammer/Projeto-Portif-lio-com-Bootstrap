@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { GoodOld } from './fonts';
 import { Creato } from "./fonts";
 import "./globals.css";
-
+import 'aos/dist/aos.css'
 
 export const metadata: Metadata = {
   title: "Jovic Programmer",

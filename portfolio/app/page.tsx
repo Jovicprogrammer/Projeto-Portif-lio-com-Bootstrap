@@ -7,7 +7,7 @@ import Capa from "./components/capa"
 import Aptidoes from "./components/aptidoes"
 import Projetos from "./components/projetos"
 import Contatos from "./components/contatos"
-
+import Topo from "./components/topo"
 
 export default function Home() {
 
@@ -26,6 +26,8 @@ export default function Home() {
             />
 
         <Navbar/>
+        
+        <div className="absolute"><Topo/></div>
 
         <div id="capa"><Capa/></div>
 
