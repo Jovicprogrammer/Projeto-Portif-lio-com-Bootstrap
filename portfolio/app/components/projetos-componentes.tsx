@@ -70,7 +70,7 @@ export default function ProjetosCarousel() {
     <div className={`relative md:pt-7 h-screen flex flex-col items-center justify-center ${Creato.className}`}>
       
       {/* Título */}
-      <h2 className={`${GoodOld.className} text-5xl md:text-4xl mb-8 `}>Projetos de Programação</h2>
+      <h2 className={`${GoodOld.className} text-light text-5xl md:text-4xl mb-8 `}>Projetos de Programação</h2>
 
       {/* Container do Carousel */}
       <div className="relative w-full max-w-7xl px-4">
@@ -110,10 +110,10 @@ export default function ProjetosCarousel() {
 
               {/* Conteúdo */}
               <div className="p-6 flex flex-col grow">
-                <h3 className={`${GoodOld.className} text-2xl mb-3 text-light`}>
+                <h3 className={`${GoodOld.className} text-2xl mb-3 text-light text-center`}>
                   {projeto.titulo}
                 </h3>
-                <p className="text-lg text-weird-white mb-4 grow">
+                <p className="text-lg text-weird-white mb-4 grow text-center">
                   {projeto.descricao}
                 </p>
                 
@@ -121,7 +121,7 @@ export default function ProjetosCarousel() {
                   <Link
                     href={projeto.link} 
                     target="_blank"
-                    className="inline-block hover:opacity-60 hover:text-shadow-light text-shadow-md px-6 py-2 rounded transition-all mt-auto"
+                    className="inline-block hover:opacity-60 hover:text-shadow-light text-center text-shadow-md px-6 py-2 rounded transition-all mt-auto"
                   >
                     Ver projeto
                   </Link>
