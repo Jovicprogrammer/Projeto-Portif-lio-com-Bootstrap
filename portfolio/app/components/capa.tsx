@@ -1,4 +1,4 @@
-import { Creato, GoodOld } from "../fonts";
+import { GoodOld } from "../fonts";
 import { useEffect } from "react";
 import AOS from 'aos';
 

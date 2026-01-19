@@ -1,5 +1,6 @@
 'use client';
-
+import { useEffect } from "react";
+import AOS from 'aos';
 import { Creato, GoodOld } from "@/app/fonts";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,6 +16,15 @@ interface Projeto {
 }
 
 export default function ProjetosCarousel() {
+
+  useEffect(() => {
+      AOS.init({
+        duration: 1000,
+        easing: 'ease-in-out',
+        once: false,
+      })
+    }, [])
+
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   // Seus projetos aqui
@@ -70,10 +80,10 @@ export default function ProjetosCarousel() {
     <div className={`relative md:pt-7 h-screen flex flex-col items-center justify-center ${Creato.className}`}>
       
       {/* Título */}
-      <h2 className={`${GoodOld.className} text-light text-5xl md:text-4xl mb-8 `}>Projetos de Programação</h2>
+      <h2 data-aos="fade-down" className={`${GoodOld.className} text-light text-5xl md:text-4xl mb-8 `}>Projetos de Programação</h2>
 
       {/* Container do Carousel */}
-      <div className="relative w-full max-w-7xl px-4">
+      <div data-aos="fade-up" className="relative w-full max-w-7xl px-4">
         
         {/* Botão Esquerda */}
         <button
@@ -95,11 +105,11 @@ export default function ProjetosCarousel() {
           {projetos.map((projeto) => (
             <div
               key={projeto.id}
-              className="shrink-0 w-80 md:w-96 bg-deep-calm rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-shadow flex flex-col"
+              className="shrink-0 w-80 md:w-96 bg-deep-calm rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-shadow flex flex-col hover:shadow-light/50 cursor-pointer"
             >
               {/* GIF */}
               <div className="relative h-48 bg-gray-200">
-                <Image
+                <Image data-aos="zoom-in"
                   src={projeto.gifUrl}
                   alt={projeto.titulo}
                   fill
@@ -109,7 +119,7 @@ export default function ProjetosCarousel() {
               </div>
 
               {/* Conteúdo */}
-              <div className="p-6 flex flex-col grow">
+              <div data-aos="zoom-in" className="p-6 flex flex-col grow">
                 <h3 className={`${GoodOld.className} text-2xl mb-3 text-light text-center`}>
                   {projeto.titulo}
                 </h3>
@@ -119,6 +129,7 @@ export default function ProjetosCarousel() {
                 
                 {projeto.link && (
                   <Link
+                    data-aos="zoom-in"
                     href={projeto.link} 
                     target="_blank"
                     className="inline-block hover:opacity-60 hover:text-shadow-light text-center text-shadow-md px-6 py-2 rounded transition-all mt-auto"
