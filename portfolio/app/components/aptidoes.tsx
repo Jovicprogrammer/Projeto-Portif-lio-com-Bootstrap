@@ -1,6 +1,6 @@
 'use client';
 
-import { Creato, GoodOld } from "../fonts";
+import { Augusta, Creato } from "../fonts";
 import { useEffect } from "react";
 import AOS from 'aos';
 
@@ -40,9 +40,9 @@ export default function Aptidoes() {
 
     return (
 
-        <div data-aos="fade-zoom-in" className={`relative bg-deep-calm/40 mx-6 my-3 px-2 flex flex-col items-center justify-center md:h-screen min-h-screen ${Creato.className} `}>
+        <div data-aos="fade-zoom-in" className={`relative bg-deep-calm/80 mx-6 my-3 px-2 flex flex-col items-center justify-center md:h-screen min-h-screen ${Creato.className} `}>
         
-        <h2 data-aos="fade-down" className={`${GoodOld.className} text-4xl mt-10 mb-8 text-center text-light`}>Minhas Aptidões</h2>
+        <h2 data-aos="fade-down" className={`${Augusta.className} text-4xl mt-10 mb-8 text-center text-light`}>Minhas Aptidões</h2>
         
         {/* Container do carrossel com overflow hidden */}
         <div className="relative w-220 overflow-hidden">
@@ -70,18 +70,18 @@ export default function Aptidoes() {
         <div data-aos="fade-up" className="flex flex-row pt-20 gap-5 ">
 
         <div className="bg-deep-calm rounded-2xl py-6 px-3 hover:shadow-md hover:shadow-light/40 transition-all cursor-pointer"> 
-          <h3 className="text-3xl text-light pb-3 ">Criatividade</h3>
+          <h3 className={`text-3xl text-center text-light pb-3 ${Augusta.className}`}>Criatividade</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quos nemo necessitatibus laboriosam incidunt deserunt, error ex nobis quam et, eveniet tenetur? Eligendi, animi fugiat vero sint at molestiae quod.</p>
         </div>
         
         <div className="bg-deep-calm rounded-2xl py-6 px-3 pr-0 hover:shadow-md hover:shadow-light/40 transition-all cursor-pointer">
-          <h3 className="text-3xl text-light pb-3 ">Criatividade</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quos nemo necessitatibus laboriosam incidunt deserunt, error ex nobis quam et, eveniet tenetur? Eligendi, animi fugiat vero sint at molestiae quod.</p>
+          <h3 className={`text-3xl text-center text-light pb-3 ${Augusta.className}`}>Criatividade</h3>
+          <p className="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quos nemo necessitatibus laboriosam incidunt deserunt, error ex nobis quam et, eveniet tenetur? Eligendi, animi fugiat vero sint at molestiae quod.</p>
         </div>
         
         <div className="bg-deep-calm rounded-2xl py-6 px-3 pr-0 hover:shadow-md hover:shadow-light/40 transition-all cursor-pointer">
-          <h3 className="text-3xl text-light pb-3 ">Criatividade</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quos nemo necessitatibus laboriosam incidunt deserunt, error ex nobis quam et, eveniet tenetur? Eligendi, animi fugiat vero sint at molestiae quod.</p>
+          <h3 className={`text-3xl text-center text-light pb-3 ${Augusta.className}`}>Criatividade</h3>
+          <p className="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quos nemo necessitatibus laboriosam incidunt deserunt, error ex nobis quam et, eveniet tenetur? Eligendi, animi fugiat vero sint at molestiae quod.</p>
         </div>
 
         </div>

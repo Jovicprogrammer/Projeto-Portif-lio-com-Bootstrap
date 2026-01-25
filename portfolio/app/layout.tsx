@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { GoodOld } from './fonts';
 import { Creato } from "./fonts";
+import { Augusta } from "./fonts";
 import "./globals.css";
 import 'aos/dist/aos.css'
 
@@ -20,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${GoodOld.variable} ${Creato.variable}`}
+        className={`${GoodOld.variable} ${Creato.variable} ${Augusta.variable}`}
       >
         {children}
       </body>

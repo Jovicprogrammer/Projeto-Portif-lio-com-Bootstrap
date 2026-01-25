@@ -1,7 +1,7 @@
 'use client';
 import { useEffect } from "react";
 import AOS from 'aos';
-import { Creato, GoodOld } from "@/app/fonts";
+import { Augusta, Creato } from "@/app/fonts";
 import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
@@ -80,10 +80,10 @@ export default function ProjetosCarousel() {
     <div className={`relative md:pt-7 h-screen flex flex-col items-center justify-center ${Creato.className}`}>
       
       {/* Título */}
-      <h2 data-aos="fade-down" className={`${GoodOld.className} text-light text-5xl md:text-4xl mb-8 `}>Projetos de Programação</h2>
+      <h2 data-aos="fade-down" className={`${Augusta.className} text-light text-5xl md:text-4xl mb-8 `}>Projetos de Programação</h2>
 
       {/* Container do Carousel */}
-      <div data-aos="fade-up" className="relative w-full max-w-7xl px-4">
+      <div data-aos="fade-up" className="relative w-full max-w-7xl px-3">
         
         {/* Botão Esquerda */}
         <button
@@ -120,7 +120,7 @@ export default function ProjetosCarousel() {
 
               {/* Conteúdo */}
               <div data-aos="zoom-in" className="p-6 flex flex-col grow">
-                <h3 className={`${GoodOld.className} text-2xl mb-3 text-light text-center`}>
+                <h3 className={`${Augusta.className} text-2xl mb-3 text-light text-center`}>
                   {projeto.titulo}
                 </h3>
                 <p className="text-lg text-weird-white mb-4 grow text-center">

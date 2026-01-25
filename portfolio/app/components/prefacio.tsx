@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useEffect } from "react";
 import AOS from 'aos';
-import { GoodOld } from "../fonts";
+import { Augusta } from "../fonts";
 
 export default function Prefacio() {
 
@@ -16,13 +16,13 @@ export default function Prefacio() {
 
     return (
 
-        <div data-aos="fade-zoom-in" className={`flex flex-col md:flex-row items-center justify-center min-h-screen md:h-screen py-10 md:py-0 gap-8 px-4 bg-deep-calm/15 md:mx-3`}>
+        <div data-aos="fade-zoom-in" className={`flex flex-col md:flex-row items-center justify-center min-h-screen md:h-screen py-10 md:py-0 gap-8 px-4 bg-deep-calm/80 md:mx-3`}>
 
         <Image data-aos="fade-up" src='/perfil.png' alt='imagem de portfolio' width={400} height={400} className="w-full max-w-md md:max-w-none md:w-auto"></Image>
 
-        <div className="text-center md:text-lef pl-3 ">
+        <div className="text-center md:text-right pl-3 ">
 
-          <h2 data-aos="fade-down" className={`text-3xl text-light ${GoodOld.className}`}>Um pouco sobre mim...</h2>
+          <h2 data-aos="fade-down" className={`text-3xl text-light ${Augusta.className}`}>Um pouco sobre mim...</h2>
 
             <p data-aos="fade-up" className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, necessitatibus. Molestias quibusdam ipsam impedit deleniti laboriosam voluptatibus dolorem at, veritatis sint ex animi, ipsa beatae similique nemo recusandae quisquam magnam! 
             

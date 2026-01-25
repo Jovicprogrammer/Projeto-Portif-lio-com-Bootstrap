@@ -3,7 +3,10 @@
 import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Send, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
-import { GoodOld } from '../fonts';
+import { Augusta } from '../fonts';
+import { useEffect } from "react";
+import AOS from 'aos';
+
 
 export default function FormularioContato() {
   const formRef = useRef<HTMLFormElement>(null);
@@ -37,17 +40,26 @@ export default function FormularioContato() {
     }
   };
 
+  useEffect(() => {
+                  AOS.init({
+                    duration: 1000,
+                    easing: 'ease-in-out',
+                    once: false,
+                  })
+                }, [])
+  
+
   return (
     <div className="w-full max-w-2xl p-8 pt-28">
       
-      <div className="bg-mist/80 rounded-2xl shadow-xl p-7 px-15 border border-light">
+      <div data-aos="fade-up" className="bg-mist/80 rounded-2xl shadow-xl p-7 px-15 border border-light">
         
         <div className="mb-8">
-          <h2 className={`${GoodOld.className} text-3xl text-center text-light mb-1`}>
-            Envie um e-mail
+          <h2 className={`${Augusta.className} text-3xl text-center text-light mb-1`}>
+            Envie-me um e-mail
           </h2>
           <p className="text-deep-calm text-center">
-            Preencha o formulário e responderei o mais rápido possível!
+          Preencha o formulário abaixo para enviar-me uma mensagem
           </p>
         </div>
 

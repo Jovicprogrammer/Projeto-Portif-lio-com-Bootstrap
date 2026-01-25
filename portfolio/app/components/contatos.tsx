@@ -1,4 +1,4 @@
-import { Creato, GoodOld } from "../fonts";
+import { Augusta, Creato } from "../fonts";
 import { useEffect } from "react";
 import FormularioContato from "./FormularioContato";
 import AOS from 'aos';
@@ -22,7 +22,7 @@ export default function Contatos() {
 
     return (
 
-        <div data-aos="fade-zoom-in" className={`bg-deep-calm/50 flex flex-row justify-center my-3 mx-6 px-2 min-h-screen ${Creato.className}`}>
+        <div data-aos="fade-zoom-in" className={`bg-deep-calm/80 grid-cols-2 gap-30 flex flex-row justify-center my-3 mx-6 px-2 min-h-screen ${Creato.className}`}>
 
         <div className=" ">
       <FormularioContato />
@@ -30,12 +30,12 @@ export default function Contatos() {
 
     <div className="pt-30">
       
-      <h3 className={`${GoodOld.className} text-3xl text-light`}>Ou me encontre nas minhas redes</h3>
+      <h3 data-aos="zoom-in" className={`${Augusta.className} text-3xl text-light`}>Ou encontre-me em minhas redes</h3>
       
       <div>
 
         <div className="grid grid-cols-2 gap-5 pt-5">
-          <Link href={''}>
+          <Link target="blank" data-aos="fade-up" href={'https://www.instagram.com/jo.vic_sousa/'}>
             <div className="flex flex-col bg-deep-calm rounded-2xl p-7 pt-15 pb-15 items-center">
             
             <span className="text-8xl"><FaSquareInstagram/></span>
@@ -44,7 +44,7 @@ export default function Contatos() {
             </div>
           </Link>
           
-          <Link href={''}>
+          <Link data-aos="fade-up" target="blank" href={'https://w.app/regtjd'}>
             <div className="flex flex-col bg-deep-calm rounded-2xl p-7 pt-15 pb-15 items-center">
             <span className="text-8xl">
             <FaWhatsappSquare />
@@ -56,7 +56,7 @@ export default function Contatos() {
 
         <div className="grid grid-cols-2 gap-5 pt-5">
 
-          <Link href={''}>
+          <Link data-aos="fade-up" target="blank" href={'https://www.linkedin.com/in/jo%C3%A3o-victor-sousa-alves-penha-293baa256/'}>
             <div className="flex flex-col bg-deep-calm rounded-2xl p-7 pt-15 pb-15 items-center">
             <span className="text-8xl ">
             <FaLinkedin />
@@ -65,8 +65,8 @@ export default function Contatos() {
             </div>
           </Link>
           
-          <Link target="blank" href={'https://github.com/Jovicprogrammer'}>
-            <div className="flex flex-col bg-deep-calm rounded-2xl p-7 pt-15 items-center">
+          <Link data-aos="fade-up" target="blank" href={'https://github.com/Jovicprogrammer'}>
+            <div className="flex flex-col bg-deep-calm rounded-2xl p-7 pt-15 pb-15 items-center">
             <span className="text-8xl">
             <FaGithub />
             </span>

@@ -1,11 +1,11 @@
 import React from "react"
 import Link from "next/link"
-import { GoodOld } from "../fonts"
+import { Augusta } from "../fonts"
 export default function Navbar() {
 
     return (
 
-        <nav className={`fixed top-8 z-500 left-0 right-0 flex flex-col sm:flex-row gap-2 items-center px-2 justify-center p-4 bg-deep-calm  ${GoodOld.className}`}>
+        <nav className={`fixed top-8 z-500 left-0 right-0 flex flex-col sm:flex-row gap-2 items-center px-2 justify-center p-4 bg-deep-calm  ${Augusta.className}`}>
 
             <div className="flex gap-7 items-center justify-center h-auto text-2xl">
                 <Link href="#prefacio" className="hover:opacity-60 hover:text-shadow-light transition text-shadow-md text-shadow-horror">Prefácio</Link>

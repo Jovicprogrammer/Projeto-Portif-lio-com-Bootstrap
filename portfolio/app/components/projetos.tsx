@@ -15,7 +15,7 @@ export default function Projetos() {
 
     return (
 
-        <div data-aos="fade-zoom-in" className={`bg-deep-calm/20 mx-6 px-2 min-h-screen ${Creato.className}`}>
+        <div data-aos="fade-zoom-in" className={`bg-deep-calm/70 mx-6 px-2 min-h-screen ${Creato.className}`}>
 
         <ProjetosCarousel/>
 

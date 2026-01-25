@@ -23,3 +23,15 @@ export const Creato = localFont({
   variable: '--font-creato',
   display: 'swap',
 });
+
+export const Augusta = localFont({
+  src: [
+    {
+      path: './fonts/Augusta.ttf',
+      weight: '300',
+    },
+
+  ],
+  variable: '--font-augusta',
+  display: 'swap',
+});

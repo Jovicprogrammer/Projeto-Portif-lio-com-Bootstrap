@@ -1,4 +1,4 @@
-import { GoodOld } from "../fonts";
+import { Augusta } from "../fonts";
 import { useEffect } from "react";
 import AOS from 'aos';
 
@@ -16,7 +16,7 @@ export default function Capa() {
 
         <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className={`mx-6 px-8 min-h-screen text-center`}>
 
-        <span className={`relative top-155 text-3xl p-3 bg-light/35 ${GoodOld.className}`}>Boas Vindas!!</span>
+        <span className={`absolute top-155 text-3xl left-168 center p-3  ${Augusta.className}`}>Boas Vindas!!</span>
 
         </div>
 

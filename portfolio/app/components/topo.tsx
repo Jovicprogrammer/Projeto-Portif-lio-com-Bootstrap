@@ -1,6 +1,9 @@
 "use client"
 import React, { useState, useEffect } from "react"
-import { GoodOld } from "../fonts"
+import { Augusta } from "../fonts"
+
+import { FaChevronCircleUp } from "react-icons/fa";
+
 
 export default function Topo() {
     const [isVisible, setIsVisible] = useState(false)
@@ -31,9 +34,10 @@ export default function Topo() {
     return (
         <button
             onClick={scrollToTop}
-            className={`fixed bottom-3 right-9 z-50 flex items-center justify-center text-2xl bg-deep-calm text-shadow-lg p-3 rounded-lg shadow-horror shadow-lg hover:bg-calm cursor-pointer transition-all duration-300 ${GoodOld.className}`}
+            className={`fixed bottom-3 right-3 z-50 flex items-center justify-center text-4xl bg-deep-calm text-shadow-lg p-4 rounded-lg shadow-horror shadow-lg hover:bg-calm cursor-pointer transition-all duration-300 ${Augusta.className}`}
         >
-            Voltar ao Topo
+            <FaChevronCircleUp />
+
         </button>
     )
 }
