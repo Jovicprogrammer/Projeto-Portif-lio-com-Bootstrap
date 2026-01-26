@@ -50,20 +50,20 @@ export default function ProjetosCarousel() {
       gifUrl: "/gifs/projeto3.gif",
       link: "https://vesquicio.vercel.app/"
     },
-    {
-      id: 4,
-      titulo: "Slow Risers",
-      descricao: "Mais um projeto fantástico do seu portfólio",
-      gifUrl: "/gifs/projeto3.gif",
-      link: "https://slow-risers.vercel.app/"
-    },
-    {
-      id: 5,
-      titulo: "Carne Íntima",
-      descricao: "Mais um projeto fantástico do seu portfólio",
-      gifUrl: "/gifs/projeto3.gif",
-      link: "/projetos/projeto3"
-    },
+    // {
+    //   id: 4,
+    //   titulo: "Slow Risers",
+    //   descricao: "Mais um projeto fantástico do seu portfólio",
+    //   gifUrl: "/gifs/projeto3.gif",
+    //   link: "https://slow-risers.vercel.app/"
+    // },
+    // {
+    //   id: 5,
+    //   titulo: "Carne Íntima",
+    //   descricao: "Mais um projeto fantástico do seu portfólio",
+    //   gifUrl: "/gifs/projeto3.gif",
+    //   link: "/projetos/projeto3"
+    // },
   ];
 
   const scroll = (direction: 'left' | 'right'): void => {
