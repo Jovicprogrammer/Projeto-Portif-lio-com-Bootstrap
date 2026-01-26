@@ -3,7 +3,7 @@ import localFont from 'next/font/local';
 export const GoodOld = localFont({
   src: [
     {
-      path: './fonts/GoodOldDOSSmooth.ttf',
+      path: './Fonts/GoodOldDOSSmooth.ttf',
       weight: '300',
     },
 
@@ -15,7 +15,7 @@ export const GoodOld = localFont({
 export const Creato = localFont({
   src: [
     {
-      path: './fonts/CreatoDisplay-Regular.otf',
+      path: './Fonts/CreatoDisplay-Regular.otf',
       weight: '300',
     },
 
@@ -27,7 +27,7 @@ export const Creato = localFont({
 export const Augusta = localFont({
   src: [
     {
-      path: './fonts/Augusta.ttf',
+      path: './Fonts/Augusta.ttf',
       weight: '300',
     },
 
