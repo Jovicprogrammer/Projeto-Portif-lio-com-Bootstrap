@@ -33,21 +33,21 @@ export default function ProjetosCarousel() {
       id: 1,
       titulo: "Amotur",
       descricao: "Uma breve descrição do projeto incrível que você criou",
-      gifUrl: "/gifs/projeto1.gif",
+      gifUrl: "/gifs/amotur.gif",
       link: "https://amotur-front-end.vercel.app/"
     },
     {
       id: 2,
       titulo: "Hive Hub",
       descricao: "Outra descrição interessante sobre suas habilidades",
-      gifUrl: "/gifs/projeto2.gif",
+      gifUrl: "/gifs/hivehub.gif",
       link: "https://plataforma-inovacao-squad02-front-e.vercel.app/landingpage"
     },
     {
       id: 3,
       titulo: "vesquicio.",
       descricao: "Mais um projeto fantástico do seu portfólio",
-      gifUrl: "/gifs/projeto3.gif",
+      gifUrl: "/gifs/vesquicio.gif",
       link: "https://vesquicio.vercel.app/"
     },
     // {
