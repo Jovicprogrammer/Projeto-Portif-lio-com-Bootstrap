@@ -32,21 +32,21 @@ export default function ProjetosCarousel() {
     {
       id: 1,
       titulo: "Amotur",
-      descricao: "Uma breve descrição do projeto incrível que você criou",
+      descricao: "Mapa interativo feito para o turismo das praias do Icaraí. Feito em equipe junto com a Amontada Valley.",
       gifUrl: "/gifs/amotur.gif",
       link: "https://amotur-front-end.vercel.app/"
     },
     {
       id: 2,
       titulo: "Hive Hub",
-      descricao: "Outra descrição interessante sobre suas habilidades",
+      descricao: "Plataforma de inovação feita em conjunto com a Amontada Valley.",
       gifUrl: "/gifs/hivehub.gif",
       link: "https://plataforma-inovacao-squad02-front-e.vercel.app/landingpage"
     },
     {
       id: 3,
       titulo: "vesquicio.",
-      descricao: "Mais um projeto fantástico do seu portfólio",
+      descricao: "Site feito como um projeto pessoal, com portfólio de identidades visuais e artes digitais.",
       gifUrl: "/gifs/vesquicio.gif",
       link: "https://vesquicio.vercel.app/"
     },
