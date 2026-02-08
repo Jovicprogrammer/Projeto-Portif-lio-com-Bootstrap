@@ -18,7 +18,7 @@ export default function Home() {
         <div 
                 className="fixed inset-0 -z-10"
                 style={{
-                    backgroundImage: "url('/castle.jpg')",
+                    backgroundImage: "url('/backgroundJP.webp')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundAttachment: "fixed"

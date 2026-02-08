@@ -10,7 +10,7 @@ export default function Footer() {
 
         <div className={`block text-center items-center justify-center h-10 pt-10 pb-20 ${Creato.className}`}>
 
-        <p>Créditos imagem de fundo: Pedro Luis Domínguez Ruiz (Pexels)</p>
+        <p>Créditos pela imagem de fundo: Pedro Luis Domínguez Ruiz (Pexels)</p>
         <p>Jovic Programmer. {currentYear}</p>
 
 

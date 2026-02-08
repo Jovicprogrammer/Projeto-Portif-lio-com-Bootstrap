@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Jovic Programmer",
   description: "criatividade onde for",
   icons: {
-  icon: 'images/vesquicio-icon.webp',
+  icon: '/JPlogo.webp',
   },
 };
 
