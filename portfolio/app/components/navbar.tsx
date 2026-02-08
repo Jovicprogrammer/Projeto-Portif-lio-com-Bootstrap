@@ -7,7 +7,7 @@ export default function Navbar() {
 
         <nav className={`fixed top-8 z-500 left-0 right-0 flex flex-col sm:flex-row gap-2 items-center px-2 justify-center p-4 bg-deep-calm  ${Augusta.className}`}>
 
-            <div className="flex gap-7 items-center justify-center h-auto text-2xl">
+            <div className="flex gap-3 md:gap-7 items-center justify-center h-auto text-2xl">
                 <Link href="#prefacio" className="hover:opacity-60 hover:text-shadow-light transition text-shadow-md text-shadow-horror">Prefácio</Link>
                 <Link href="#aptidoes" className="hover:opacity-60 hover:text-shadow-light transition text-shadow-md text-shadow-horror">Aptidões</Link>
                 <Link href="#projetos" className="hover:opacity-60 hover:text-shadow-light transition text-shadow-md text-shadow-horror">Projetos</Link>

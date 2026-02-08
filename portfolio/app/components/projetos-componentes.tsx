@@ -80,7 +80,7 @@ export default function ProjetosCarousel() {
     <div className={`relative md:pt-7 h-screen flex flex-col items-center justify-center ${Creato.className}`}>
       
       {/* Título */}
-      <h2 data-aos="fade-down" className={`${Augusta.className} text-light text-5xl md:text-4xl mb-8 `}>Projetos de Programação</h2>
+      <h2 data-aos="fade-down" className={`${Augusta.className} text-light text-center text-5xl md:text-4xl mb-8 `}>Projetos de Programação</h2>
 
       {/* Container do Carousel */}
       <div data-aos="fade-up" className="relative w-full max-w-7xl px-3">
@@ -99,7 +99,7 @@ export default function ProjetosCarousel() {
         {/* Container dos Cards */}
         <div
           ref={scrollContainerRef}
-          className="flex gap-6 overflow-x-auto scrollbar-hide scroll-smooth px-12"
+          className="flex gap-6 overflow-x-auto scrollbar-hide scroll-smooth md:px-12"
           style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >
           {projetos.map((projeto) => (

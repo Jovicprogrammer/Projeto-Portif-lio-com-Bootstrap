@@ -14,9 +14,9 @@ export default function Capa() {
 
     return (
 
-        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className={`mx-6 px-8 min-h-screen text-center`}>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className={`md:mx-6 px-8 min-h-screen text-center`}>
 
-        <span className={`absolute top-155 text-3xl left-168 center p-3  ${Augusta.className}`}>Boas Vindas!!</span>
+        <span className={`absolute bottom-0 left-27  md:top-155 text-3xl md:left-165 center p-3  ${Augusta.className}`}>Boas Vindas!!</span>
 
         </div>
 

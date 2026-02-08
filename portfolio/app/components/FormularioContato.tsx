@@ -52,7 +52,7 @@ export default function FormularioContato() {
   return (
     <div className="w-full max-w-2xl p-8 pt-28">
       
-      <div data-aos="fade-up" className="bg-mist/80 rounded-2xl shadow-xl p-7 px-15 border border-light">
+      <div data-aos="fade-up" className="bg-mist/80 rounded-2xl p-6 px-3 shadow-xl md:p-7 md:px-15 border border-light">
         
         <div className="mb-8">
           <h2 className={`${Augusta.className} text-3xl text-center text-light mb-1`}>
