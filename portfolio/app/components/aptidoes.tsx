@@ -70,18 +70,18 @@ export default function Aptidoes() {
         <div data-aos="fade-up" className="flex flex-row pt-20 gap-5 ">
 
         <div className="bg-deep-calm rounded-2xl py-6 px-3 hover:shadow-md hover:shadow-light/40 transition-all cursor-pointer"> 
-          <h3 className={`text-3xl text-center text-light pb-3 ${Augusta.className}`}>Criatividade</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quos nemo necessitatibus laboriosam incidunt deserunt, error ex nobis quam et, eveniet tenetur? Eligendi, animi fugiat vero sint at molestiae quod.</p>
+          <h3 className={`text-3xl text-center text-light pb-5 ${Augusta.className}`}>Criatividade</h3>
+          <p className="text-center pb-5">Aprecio a exploração de novas ideias, buscando desafios e soluções onde pouco se imagina.</p>
         </div>
         
-        <div className="bg-deep-calm rounded-2xl py-6 px-3 pr-0 hover:shadow-md hover:shadow-light/40 transition-all cursor-pointer">
-          <h3 className={`text-3xl text-center text-light pb-3 ${Augusta.className}`}>Criatividade</h3>
-          <p className="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quos nemo necessitatibus laboriosam incidunt deserunt, error ex nobis quam et, eveniet tenetur? Eligendi, animi fugiat vero sint at molestiae quod.</p>
+        <div className="bg-deep-calm rounded-2xl py-6 px-3  hover:shadow-md hover:shadow-light/40 transition-all cursor-pointer">
+          <h3 className={`text-3xl text-center text-light pb-5 ${Augusta.className}`}>Proatividade</h3>
+          <p className="text-center">Minha vontade de aprender e agir é grande, e sempre quero estar desenvolvendo algo.</p>
         </div>
         
-        <div className="bg-deep-calm rounded-2xl py-6 px-3 pr-0 hover:shadow-md hover:shadow-light/40 transition-all cursor-pointer">
-          <h3 className={`text-3xl text-center text-light pb-3 ${Augusta.className}`}>Criatividade</h3>
-          <p className="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quos nemo necessitatibus laboriosam incidunt deserunt, error ex nobis quam et, eveniet tenetur? Eligendi, animi fugiat vero sint at molestiae quod.</p>
+        <div className="bg-deep-calm rounded-2xl py-6 px-3 hover:shadow-md hover:shadow-light/40 transition-all cursor-pointer">
+          <h3 className={`text-3xl text-center text-light pb-5  ${Augusta.className}`}>Tolerância</h3>
+          <p className="text-center">Me encanto pela ideia de trabalho em equipe e busco sempre respeitar cada um e seus próprios mundos.</p>
         </div>
 
         </div>
